@@ -562,11 +562,6 @@
   }
 }
 
-.beforeAfterBox .beforeAfter .programElemant {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .beforeAfterBox .beforeAfter .programElemant div {
   width: 55%;
 }
