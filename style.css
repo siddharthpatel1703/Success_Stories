@@ -585,4 +585,14 @@
     padding-right: 0px;
   }
 }
+
+.bg-Dark {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.bg-Dark p {
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
