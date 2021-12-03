@@ -442,22 +442,28 @@
     }
     .beforeAfter{
         padding: 20px;
-    div{
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        padding: 20px;
-        background-color: #f8f8f8;
-        img{
-            width: 80%;
-            @media (max-width: 767.98px) {
-                width: 100%;
+        > div{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+            img{
+                width: 80%;
+                @media (max-width: 767.98px) {
+                    width: 100%;
+                }
             }
-        }
        
+    }
+    .programElemant{
+        flex-wrap: wrap;
+        div{
+            width: 55%;
+        }
     }
     }
 }
