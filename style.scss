@@ -9,7 +9,10 @@
     background-color: #ffffff;
     font-family: myFirstFont;
 }
-
+.border-bottom
+{
+    border-bottom: 1px solid #ef483a;
+}
 
 .img-fluid
     {
@@ -92,6 +95,7 @@
                 border-radius:20px;
                 overflow:hidden;
                 max-width:100%;
+                background: #fff;
                 @media (max-width: 767.98px) {
                     max-width: 100%;
                     margin: 0;
